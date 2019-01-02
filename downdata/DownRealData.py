@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 import tushare as ts
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, schema, Table
+from sqlalchemy.orm import sessionmaker
 from topdown import zsys
 import arrow
+
+tableToWriteTo = 'stock_real_data'
+engine = create_engine('mysql://root:root@127.0.0.1/stock')
+conn = engine.connect()
 
 
 def down_min_all(rdat, finx, xtyp='5', fgIndex=False):
@@ -26,7 +31,6 @@ def down_min_all(rdat, finx, xtyp='5', fgIndex=False):
         print("\n", i, "/", xn9, "code,", code)
         # ---
         down_min_real010(rdat, code, xtyp, fgIndex)
-
 
 
 def down_min_real010(rdat, xcod, xtyp='5', fgIndex=False):
@@ -57,10 +61,25 @@ def down_min_real010(rdat, xcod, xtyp='5', fgIndex=False):
             # print('\nxd5\n',xd.head())
             xd = xd.sort_values(['date'], ascending=True);
             xd['code'] = xcod
-            engine = create_engine('mysql://root:root@127.0.0.1/stock')
-            xd.to_sql('real_data', engine,if_exists='append')
             xd = xd[xd.date > xtim]
-            xd.to_csv(fss, index=False, encoding='gbk')
+
+            listToWrite = xd.to_dict(orient='records')
+            metadata = schema.MetaData(bind=engine, reflect=True)
+            table = Table(tableToWriteTo, metadata, autoload=True)
+
+            # Open the session
+            Session = sessionmaker(bind=engine)
+            session = Session()
+            # xd.to_sql('stock_real_data', engine, if_exists='append')
+            # xd.to_csv(fss, index=False, encoding='gbk')
+            # Inser the dataframe into the database in one bulk
+            conn.execute(table.insert(), listToWrite)
+
+            # Commit the changes
+            session.commit()
+
+            # Close the session
+            session.close()
     except IOError:
         # print(IOError)
         pass  # skip,error

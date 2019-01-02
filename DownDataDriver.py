@@ -42,8 +42,8 @@ print('xtyp:', xtyp)
 
 
 # 3 股票代码文件，下载所有股票实时数据，可使用自定义股票池代码文件
-# fstk='inx\\stk_code.csv'
-fstk = 'stk_pool.csv'
+fstk='stk_code.csv'
+# fstk = 'stk_pool.csv'
 print('\n#3,fstk,', fstk)
 down_min_all(rss, fstk, xtyp, fgIndex=False)
 
