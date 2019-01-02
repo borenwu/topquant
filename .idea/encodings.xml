@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/inx_code.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/kc_demo/inx/stk_base.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/kc_demo/inx/stk_code.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/stk_code.csv" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/stk_pool.csv" charset="GBK" />
+  </component>
+</project>
