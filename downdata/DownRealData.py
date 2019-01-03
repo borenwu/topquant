@@ -42,10 +42,8 @@ def down_min_real010(rdat, xcod, xtyp='5', fgIndex=False):
         xtyp (str)：k线数据模式，默认为D，日线
             D=日 W=周 M=月 ；5=5分钟 15=15分钟 ，30=30分钟 60=60分钟
         fgIndex,指数下载模式；默认为 False，股票下载模式。
-
-
-
     '''
+
     xd = []
     xtim = arrow.now().format('YYYY-MM-DD')
     fss = rdat + xcod + '.csv';

@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb943e9-39bf-487c-b7af-c26c04f4fa4c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/real_data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/topquant.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/topquant.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DownDataDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/DownDataDriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/downdata/DownRealData.py" beforeDir="false" afterPath="$PROJECT_DIR$/downdata/DownRealData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/groupdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/groupdemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600016.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600028.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600029.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600030.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600036.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600048.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600050.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600100.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zDat/real/600104.csv" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,24 +28,16 @@
       <file leaf-file-name="DownRealData.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/downdata/DownRealData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1701">
-              <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-              <folding>
-                <element signature="e#24#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="21">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stk_pool.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stk_pool.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="DownDataDriver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DownDataDriver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
+            <state relative-caret-position="315">
               <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
             </state>
           </provider>
@@ -71,7 +46,7 @@
       <file leaf-file-name="groupdemo.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/groupdemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="210">
               <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
@@ -92,7 +67,7 @@
       <file leaf-file-name="zsys.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/topdown/zsys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="1281">
               <caret line="81" selection-start-line="81" selection-end-line="81" />
             </state>
           </provider>
@@ -177,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +174,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +181,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -349,6 +324,14 @@
       <option name="presentableId" value="Default" />
       <updated>1546142910091</updated>
     </task>
+    <task id="LOCAL-00001" summary="second">
+      <created>1546415617879</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546415617879</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -362,10 +345,9 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.40953413" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32936078" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.2585288" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
       <window_info anchor="right" auto_hide="true" id="SciView" order="3" show_stripe_button="false" type="FLOATING" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.2533512" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -376,6 +358,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,12 +367,40 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second" />
+    <option name="LAST_COMMIT_MESSAGE" value="second" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/groupdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stk_code.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21987">
+          <caret line="1047" column="6" selection-start-line="1047" selection-end-line="1047" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/topdown/zsys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/groupdemo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -587,9 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding>
-            <element signature="e#260#269#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -628,22 +636,10 @@
       </provider>
     </entry>
     <entry file="file://D:/Anaconda3/Lib/site-packages/sqlalchemy/engine/default.py" />
-    <entry file="file://$PROJECT_DIR$/zDat/real/600016.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zDat/real/600030.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zDat/real/600000.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/zDat/real/600000.csv" />
     <entry file="file://$PROJECT_DIR$/topdown/zsys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
+        <state relative-caret-position="1281">
           <caret line="81" selection-start-line="81" selection-end-line="81" />
         </state>
       </provider>
@@ -655,14 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019-1-2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2019-1-2.csv" />
     <entry file="file://$PROJECT_DIR$/groupdemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="210">
           <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
@@ -672,13 +664,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DownDataDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
+        <state relative-caret-position="315">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stk_pool.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/real_data.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -689,11 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/downdata/DownRealData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="81" column="27" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
