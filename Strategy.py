@@ -29,6 +29,8 @@ def strategy_find_stock_1(start_time, end_time, trade_date):
         low_value = group['low'].min()
         high_divide_low_value = round((high_value / low_value), 5)
         close_divide_open_value = round((close_value / open_value), 5)
+        vol_value = daily_data.loc[daily_data.code == name]['vol'].values[0]
+        pct_chg_value = daily_data.loc[daily_data.code == name]['pct_chg'].values[0]
 
         code_list.append(name)
         open_list.append(open_value)
@@ -37,12 +39,6 @@ def strategy_find_stock_1(start_time, end_time, trade_date):
         low_list.append(low_value)
         high_divide_low_list.append(high_divide_low_value)
         close_divide_open_list.append(close_divide_open_value)
-
-
-
-        vol_value = daily_data['vol'].values[0]
-        pct_chg_value = daily_data['pct_chg'].values[0]
-
         vol_list.append(vol_value)
         pct_chg_list.append(pct_chg_value)
 
