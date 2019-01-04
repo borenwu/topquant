@@ -42,5 +42,5 @@ def down_daily_all(trade_date):
 
 
 if __name__ == '__main__':
-    df = down_daily_all('20190102')
+    df = down_daily_all('20190104')
     print(df)

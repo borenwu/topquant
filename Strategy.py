@@ -62,6 +62,6 @@ def strategy_find_stock_1(start_time, end_time, trade_date):
 
 
 if __name__ == '__main__':
-    df = strategy_find_stock_1('2019-01-02 14:25', '2019-01-02 14:30', '20190102')
+    df = strategy_find_stock_1('2019-01-04 14:15', '2019-01-04 14:30', '20190104')
     # print(df)
-    df.to_csv('2019-01-02_1355-1410.csv',index=0)
+    df.to_csv('2019-01-04_1415-1430.csv',index=0)
