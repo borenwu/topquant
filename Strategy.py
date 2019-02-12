@@ -2,6 +2,15 @@
 import pandas as pd
 import numpy as np
 from sqlalchemy import create_engine
+import MySQLdb
+
+db = MySQLdb.connect("127.0.0.1", "root", "root", "stock", charset='utf8')
+cursor = db.cursor()
+cursor.execute("SELECT * FROM stock_real_data where date >= '2019-02-12 10:15' and date <= '2019-02-12 10:25'")
+
+results = cursor.fetchall()
+for row in results:
+    print(row)
 
 
 def strategy_find_stock_1(start_time, end_time, trade_date):
@@ -74,6 +83,6 @@ def strategy_find_stock_1(start_time, end_time, trade_date):
 
 
 if __name__ == '__main__':
-    df = strategy_find_stock_1('2019-01-15 13:40', '2019-01-15 13:45', '20190115')
+    df = strategy_find_stock_1('2019-02-12 10:15', '2019-02-12 10:25', '20190212')
     # print(df)
-    df.to_csv('2019-01-15_1340-1345.csv', index=0,encoding='utf_8_sig')
+    df.to_csv('2019-01-15_1340-1345.csv', index=0, encoding='utf_8_sig')
