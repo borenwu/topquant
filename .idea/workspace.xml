@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6bb943e9-39bf-487c-b7af-c26c04f4fa4c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/DownTickDriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestDriver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/downdata/DownRealTicks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/real_tick.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/Strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downdata/DownDailyData.py" beforeDir="false" afterPath="$PROJECT_DIR$/downdata/DownDailyData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,18 +20,20 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/topquant$kc211_tdown_real01.coverage" NAME="kc211_tdown_real01 Coverage Results" MODIFIED="1546152880835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$kc210_tdown_cnMin.coverage" NAME="kc210_tdown_cnMin Coverage Results" MODIFIED="1546151873404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/topquant$Strategy.coverage" NAME="Strategy Coverage Results" MODIFIED="1549964679646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/topquant$Strategy.coverage" NAME="Strategy Coverage Results" MODIFIED="1552901533112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$kc209_tdown_cnMin01.coverage" NAME="kc209_tdown_cnMin01 Coverage Results" MODIFIED="1546151365707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$groupdemo.coverage" NAME="groupdemo Coverage Results" MODIFIED="1546437181586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/topquant$DownTickDriver.coverage" NAME="DownTickDriver Coverage Results" MODIFIED="1552901258448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$GetCode.coverage" NAME="GetCode Coverage Results" MODIFIED="1546653948976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downdata" />
     <SUITE FILE_PATH="coverage/topquant$kc212_tdown_real.coverage" NAME="kc212_tdown_real Coverage Results" MODIFIED="1546154495138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$kc301_avg01.coverage" NAME="kc301_avg01 Coverage Results" MODIFIED="1546156282748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$GetCodeDriver.coverage" NAME="GetCodeDriver Coverage Results" MODIFIED="1546486402870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/topquant$DownDailyData.coverage" NAME="DownDailyData Coverage Results" MODIFIED="1549959207985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downdata" />
+    <SUITE FILE_PATH="coverage/topquant$DownDailyData.coverage" NAME="DownDailyData Coverage Results" MODIFIED="1552897044266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downdata" />
     <SUITE FILE_PATH="coverage/topquant$kc207_tdown_cnSTK01.coverage" NAME="kc207_tdown_cnSTK01 Coverage Results" MODIFIED="1546149240249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$DownRealData.coverage" NAME="DownRealData Coverage Results" MODIFIED="1546433235282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/downdata" />
-    <SUITE FILE_PATH="coverage/topquant$DownDataDriver.coverage" NAME="DownDataDriver Coverage Results" MODIFIED="1549962184218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/topquant$DownDataDriver.coverage" NAME="DownDataDriver Coverage Results" MODIFIED="1552896284094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/topquant$kc208_tdown_cnSTK.coverage" NAME="kc208_tdown_cnSTK Coverage Results" MODIFIED="1546930862849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/topquant$TestDriver.coverage" NAME="TestDriver Coverage Results" MODIFIED="1552958099840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -60,23 +67,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DownDataDriver.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DownDataDriver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-              <folding>
-                <element signature="e#257#281#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DownRealData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/downdata/DownRealData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1029">
-              <caret line="54" column="75" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="75" />
+            <state relative-caret-position="273">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
               </folding>
@@ -84,20 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DownDailyData.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/downdata/DownDailyData.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Strategy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Strategy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Strategy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+            <state relative-caret-position="1806">
+              <caret line="95" column="79" selection-start-line="94" selection-start-column="51" selection-end-line="95" selection-end-column="79" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
               </folding>
@@ -105,11 +91,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="real_data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/real_data.sql">
+      <file leaf-file-name="DownRealTicks.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/downdata/DownRealTicks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="13" selection-end-column="40" />
+            <state relative-caret-position="313">
+              <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="57" />
+              <folding>
+                <element signature="e#24#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDriver.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestDriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,9 +178,13 @@
         <option value="$PROJECT_DIR$/code_name.sql" />
         <option value="$PROJECT_DIR$/downdata/GetCode.py" />
         <option value="$PROJECT_DIR$/2019-01-18_1405-1420.csv" />
-        <option value="$PROJECT_DIR$/downdata/DownDailyData.py" />
         <option value="$PROJECT_DIR$/downdata/DownRealData.py" />
+        <option value="$PROJECT_DIR$/downdata/DownDailyData.py" />
+        <option value="$PROJECT_DIR$/real_tick.sql" />
+        <option value="$PROJECT_DIR$/DownTickDriver.py" />
+        <option value="$PROJECT_DIR$/downdata/DownRealTicks.py" />
         <option value="$PROJECT_DIR$/Strategy.py" />
+        <option value="$PROJECT_DIR$/TestDriver.py" />
       </list>
     </option>
   </component>
@@ -256,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Strategy">
+  <component name="RunManager" selected="Python.TestDriver">
     <configuration name="DownDailyData" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="topquant" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,7 +300,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="GetCode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="DownTickDriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="topquant" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,12 +308,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/downdata" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/downdata/GetCode.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DownTickDriver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,7 +338,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="kc208_tdown_cnSTK" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="TestDriver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="topquant" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,7 +351,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kc208_tdown_cnSTK.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestDriver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -356,16 +361,16 @@
       <item itemvalue="Python.DownDataDriver" />
       <item itemvalue="Python.DownDailyData" />
       <item itemvalue="Python.Strategy" />
-      <item itemvalue="Python.GetCode" />
-      <item itemvalue="Python.kc208_tdown_cnSTK" />
+      <item itemvalue="Python.DownTickDriver" />
+      <item itemvalue="Python.TestDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TestDriver" />
         <item itemvalue="Python.Strategy" />
-        <item itemvalue="Python.DownDataDriver" />
+        <item itemvalue="Python.DownTickDriver" />
         <item itemvalue="Python.DownDailyData" />
-        <item itemvalue="Python.kc208_tdown_cnSTK" />
-        <item itemvalue="Python.GetCode" />
+        <item itemvalue="Python.DownDataDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +424,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -429,10 +434,9 @@
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.46912244" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32827735" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.21002132" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49894738" visible="true" weight="0.22068231" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.07569297" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
       <window_info anchor="right" auto_hide="true" id="SciView" order="3" show_stripe_button="false" type="FLOATING" />
       <window_info id="Structure" order="1" sideWeight="0.5010526" side_tool="true" weight="0.2533512" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -444,6 +448,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.32932165" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719395" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,46 +473,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Strategy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1722">
+          <caret line="82" column="48" selection-end-line="104" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topdown/zai_keras.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topdown/zai_sklearn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3303">
-          <caret line="306" column="7" lean-forward="true" selection-start-line="306" selection-start-column="7" selection-end-line="306" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topdown/tdown_cnSTK.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topdown/zai_tf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topdown/zai_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="59" column="7" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -651,13 +621,6 @@
     <entry file="file://$PROJECT_DIR$/2019-1-2.csv" />
     <entry file="file://$PROJECT_DIR$/2019-01-02_0945-0955.csv" />
     <entry file="file://$PROJECT_DIR$/groupdemo.py" />
-    <entry file="file://$PROJECT_DIR$/stk_code.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21987">
-          <caret line="1047" column="6" selection-start-line="1047" selection-end-line="1047" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/MySQLdb/cursors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -709,46 +672,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/downdata/DownDailyData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/real_data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DownDataDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        <state>
+          <caret selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DownTickDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/real_tick.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tushare/stock/trading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3339">
+          <caret line="159" selection-start-line="159" selection-end-line="159" />
           <folding>
-            <element signature="e#257#281#0" expanded="true" />
+            <element signature="e#124#155#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/downdata/DownRealData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1029">
-          <caret line="54" column="75" selection-start-line="54" selection-start-column="70" selection-end-line="54" selection-end-column="75" />
+        <state relative-caret-position="273">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/downdata/DownDailyData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+    <entry file="file://$PROJECT_DIR$/2019-03-18_1430-1455.csv">
+      <provider editor-type-id="csv-text-editor">
+        <state>
+          <caret column="31" selection-start-column="19" selection-end-column="31" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="0">
+          <column index="0" width="100" />
+          <column index="1" width="100" />
+          <column index="2" width="100" />
+          <column index="3" width="100" />
+          <column index="4" width="100" />
+          <column index="5" width="100" />
+          <column index="6" width="100" />
+          <column index="7" width="100" />
+          <column index="8" width="100" />
+          <column index="9" width="100" />
+          <column index="10" width="100" />
+          <column index="11" width="100" />
+          <column index="12" width="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Strategy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+        <state relative-caret-position="1806">
+          <caret line="95" column="79" selection-start-line="94" selection-start-column="51" selection-end-line="95" selection-end-column="79" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downdata/DownRealTicks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="58" column="57" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="57" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestDriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
